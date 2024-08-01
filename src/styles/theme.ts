@@ -44,6 +44,28 @@ const colors = {
     disabled: "#cce5ff",
 };
 
+const padding = {
+    y_small: "0 12px",
+    y_medium: "0 16px",
+    y_large: "0 20px",
+
+    x_small: "12px 0",
+    x_medium: "16px 0",
+    x_large: "20px 0",
+
+    xy_small: "10px 12px",
+    xy_medium: "14px 16px",
+    xy_large: "18px 20px",
+};
+
+const fontSize = {
+    small: "14px",
+    medium: "16px",
+    large: "18px",
+};
+
 export const theme = {
     colors,
+    padding,
+    fontSize,
 };

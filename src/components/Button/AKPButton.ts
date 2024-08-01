@@ -69,25 +69,28 @@ const AKPButton = styled.button.withConfig({
     }
 
     /* Size variants */
-    ${({ size }) =>
+    ${({ size, rounded }) =>
         size === "small" &&
         `
+    ${rounded ? `width: 32px; border-radius: 32px;` : ""}    
     height: 32px;
     padding: 0 12px;
     font-size: 14px;
   `}
 
-    ${({ size }) =>
+    ${({ size, rounded }) =>
         size === "medium" &&
         `
+    ${rounded ? `width: 40px; border-radius: 40px;` : ""}    
     height: 40px;
     padding: 0 16px;
     font-size: 16px;
   `}
 
-  ${({ size }) =>
+  ${({ size, rounded }) =>
         size === "large" &&
         `
+    ${rounded ? `width: 48px; border-radius: 48px;` : ""}    
     height: 48px;
     padding: 0 20px;
     font-size: 18px;

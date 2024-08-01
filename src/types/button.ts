@@ -5,6 +5,7 @@ export interface AKPButtonProps {
     size: Size;
     disabled?: boolean;
     gradient?: boolean;
+    rounded?: boolean;
     shadow?: boolean;
     onClick?: () => void;
     children: React.ReactNode | string;

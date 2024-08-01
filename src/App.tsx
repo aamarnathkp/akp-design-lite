@@ -1,5 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import DemoComponent from "./Page/Demo/DemoComponent";
 import { ThemeProvider } from "styled-components";

@@ -4,9 +4,11 @@ export const DemoContainer = styled.div`
     width: 100%;
     height: 90vh;
     /* margin: 40px; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr;
+    padding: 20px; */
 `;
 
 export const DemoPropSection = styled.div`
